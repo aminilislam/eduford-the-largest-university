@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/aae5c62ea5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600&display=swap" rel="stylesheet">
+  </head>
+<body>
+  <section class="about">
+    <div class="nav">
+      <img src="img/logo.png" alt="">
+      <div class="navlinks"  id="navlinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+       
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="course.html">Course</a></li>
+          <li><a href="blog.html">Bloge</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </div>
+    <div class="text">
+      <h1>About Us</h1>
+    </div>
+  </section>
+
+  <section class="abt">
+    <div class="row">
+      <div class="abt-col">
+        <h1>We Are The World Largest University</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat qui voluptates voluptate eius ea id, vitae repellendus consequuntur ipsa iusto facilis, voluptas culpa non inventore. In, doloremque repudiandae nobis hic nostrum tenetur reprehenderit similique recusandae quisquam, facilis, libero adipisci labore amet at iste asperiores molestiae. Natus ab modi exercitationem quasi?</p>
+        <a href="#" class="red-btn hero-btn">Enroll Now</a>
+      </div>
+      <div class="abt-col"><img src="img/about.jpg" alt=""></div>
+      
+    </div>
+  </section>
+
+
+
+
+  <section class="footer">
+    <h2>About us</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores illum quisquam rem. Itaque a nulla porro mollitia perspiciatis officiis? Odio!
+    </p>
+    <div class="icons">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
+    <p>Made With <i class="far fa-heart"></i> by Emon</p>
+  </section>
+
+
+
+
+
+    <!------Java Scipt for toggle Menu------>
+
+
+
+    <script>
+      var navlinks = document.getElementById("navlinks");
+      function showMenu(){
+        navlinks.style.right = "0";
+      }
+      function hideMenu(){
+        navlinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</body>
+</html>
